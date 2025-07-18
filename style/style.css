@@ -1,0 +1,83 @@
+@media (max-width: 400px) {
+    img {
+        width: 350px;
+    }
+}
+
+img {
+    max-width: 550px;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+div {
+    margin: 5px 30px 5px 30px;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+ul,
+ol {
+    margin-left: 17px;
+}
+
+ul ::marker,
+ol ::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    margin: 0px 50px 0px 50px;
+}
+
+.preparation-title,
+.preparation-list ::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.brown-title {
+    color: hsl(14, 45%, 36%);
+}
+
+h1,
+.brown-title {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+ul li,
+ol li {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    padding-left: 30px;
+}
+
+th,
+td {
+    border-collapse: collapse;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+th {
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+    font-weight: 400;
+}
+
+td {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    width: 300px;
+}

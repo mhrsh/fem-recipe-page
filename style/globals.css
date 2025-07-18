@@ -1,0 +1,14 @@
+html {
+    background-color: hsl(30, 54%, 90%);
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: "Outfit", serif;
+    font-weight: 400;
+}
